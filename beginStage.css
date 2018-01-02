@@ -1,0 +1,18 @@
+
+.root{
+	-fx-background-image: url("file:///main-background.jpg");
+	
+}
+.progress-bar > .bar {
+	-fx-pref-width: 1000px;
+	-fx-pref-height: 50px;
+	-fx-accent: orange;
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        -fx-accent 0%,
+        -fx-accent 49%,
+        derive(-fx-accent, 30%) 50%,
+        derive(-fx-accent, 30%) 99%
+    );
+}

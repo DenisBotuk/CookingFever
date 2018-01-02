@@ -1,0 +1,192 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-image: url("file:///C:/Demo/bg.png");
+}
+#leftBar{
+	-fx-pref-width: 117px;
+}
+#rightBar{
+	-fx-pref-width: 124px;
+}
+#progressBar{
+	-fx-pref-width: 500px;
+	-fx-pref-height: 70px;
+}
+#clientPB{
+	-fx-pref-width: 150px;
+	-fx-pref-height: 10px;
+}
+#clientPB .track {
+  -fx-text-box-border: forestgreen;
+  -fx-control-inner-background: #4169E1;
+  -fx-background-color: 
+          -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          linear-gradient(to bottom, 
+            derive(-fx-control-inner-background, -50%),
+            derive(-fx-control-inner-background, -40%),
+            derive(-fx-control-inner-background, 60%)
+          );
+}
+#progressBar .bar { 
+    -fx-accent: #32CD32;
+    -fx-background-color: 
+    	  -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          linear-gradient(to bottom, 
+          	derive(-fx-accent, 20%),
+          	derive(-fx-accent, 80%),
+          	derive(-fx-accent, 0%),
+          	derive(-fx-accent, -20%),
+          	derive(-fx-accent, -50%),
+            derive(-fx-accent, -70%)
+          );
+}
+#money {
+	-fx-font-family: "Impact";
+	-fx-font-size: 48px;
+	-fx-text-fill: linear-gradient(orange, gold, orangered);
+	-fx-effect:dropshadow(GAUSSIAN,rgba(255,255,255,0.5),0,0,0,1);
+}
+#clientCount {
+	-fx-font-family: "Impact";
+	-fx-font-size: 36px;
+	-fx-text-fill: linear-gradient(orange, gold, orangered);
+	-fx-effect:dropshadow(GAUSSIAN,rgba(255,255,255,0.5),0,0,0,1);
+}
+#client {
+	-fx-pref-width: 145px;
+	-fx-pref-height: 184px;
+}
+#pattyPlate {
+	-fx-pref-width: 136px;
+	-fx-pref-height: 94px;
+	-fx-background-image: url("file:///C:/Demo/Patty.png");
+}
+#patty {
+	-fx-pref-width: 70px;
+	-fx-pref-height: 52px;
+	
+}
+#readyPatty{
+	-fx-pref-width: 64px;
+	-fx-pref-height: 52px;
+}
+.button{
+	-fx-background-color: Transparent;
+}
+#burgerBun{
+	-fx-pref-width: 131px;
+	-fx-pref-height: 76px;
+	-fx-background-image: url("file:///C:/Demo/burgerBuns.png");
+}
+#cola{
+	-fx-pref-width: 35px;
+	-fx-pref-height: 43px;
+	-fx-background-image: url("file:///C:/Demo/cola.png");
+}
+#plateBurger_1{
+	-fx-pref-width: 114px;
+	-fx-pref-height: 70px;
+	-fx-background-image: url("file:///C:/Demo/plateBurger.png");
+}
+#plateBurger_2{
+	-fx-pref-width: 114px;
+	-fx-pref-height: 70px;
+	-fx-background-image: url("file:///C:/Demo/plateBurger.png");
+}
+#plateBurger_3{
+	-fx-pref-width: 114px;
+	-fx-pref-height: 70px;
+	-fx-background-image: url("file:///C:/Demo/plateBurger.png");
+}
+
+#order{
+	-fx-alignment:baseline-center ;
+	-fx-padding: 30px, 5px, 5px, 5px;
+	-fx-pref-width: 187px;
+	-fx-pref-height: 270px;
+	-fx-background-image: url("file:///C:/Demo/order.png");
+}
+#dump {
+	-fx-pref-width: 125px;
+	-fx-pref-height: 102px;
+	-fx-background-image: url("file:///C:/Demo/dump.png");
+}
+#feeWithTip {
+	-fx-pref-width: 67px;
+	-fx-pref-height: 60px;
+	-fx-background-image: url("file:///C:/Demo/feeWithTip.png");
+}
+#feeWithoutTip {
+	-fx-pref-width: 75px;
+	-fx-pref-height: 60px;
+	-fx-background-image: url("file:///C:/Demo/feeWithoutTip.png");
+}
+#end{
+	-fx-font-family: "Impact";
+	-fx-font-size: 36px;
+	-fx-text-fill: linear-gradient(orange, gold, orangered);
+}
+#progressBar .track {
+  -fx-text-box-border: forestgreen;
+  -fx-control-inner-background: #4169E1;
+  -fx-background-color: 
+          -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          linear-gradient(to bottom, 
+            derive(-fx-control-inner-background, -50%),
+            derive(-fx-control-inner-background, -40%),
+            derive(-fx-control-inner-background, 60%)
+          );
+}
+#clientPB .bar { 
+    -fx-accent: #32CD32;
+    -fx-background-color: 
+    	  -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          linear-gradient(to bottom, 
+          	derive(-fx-accent, 20%),
+          	derive(-fx-accent, 80%),
+          	derive(-fx-accent, 0%),
+          	derive(-fx-accent, -20%),
+          	derive(-fx-accent, -50%),
+            derive(-fx-accent, -70%)
+          );
+}
+
+#storage{
+	-fx-pref-width: 426px;
+	-fx-pref-height: 325px;
+	-fx-background-image: url("file:///C:/Demo/storageDesk.png");
+	
+}
+#storageText{
+	-fx-font-family: "Impact";
+	-fx-font-size: 36px;
+	-fx-text-alignment: center;
+	-fx-text-fill: linear-gradient(orange, gold, orangered);
+}
+#arrow{
+	-fx-pref-width: 75px;
+	-fx-pref-height: 75px;
+	-fx-background-image: url("file:///C:/Demo/arrow.png");
+}
+#makeOrder{
+	-fx-text-box-border: forestgreen;
+ 	 -fx-control-inner-background: #006400;
+ 	 -fx-background-color: 
+          -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          linear-gradient(to bottom, 
+            derive(-fx-control-inner-background, -50%),
+            derive(-fx-control-inner-background, -40%),
+            derive(-fx-control-inner-background, 60%)
+          );
+     -fx-font-family: "Impact";
+	-fx-font-size: 16px;
+	-fx-text-fill: yellow;
+}
+	
+
+
